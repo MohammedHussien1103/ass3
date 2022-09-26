@@ -1,0 +1,51 @@
+ h1 {
+     background-color: red;
+     text-align: center;
+ }
+
+ .parent {
+     background-color: red;
+     height: 500px;
+     text-align: center;
+     margin: auto;
+     transition-duration: 0.5s;
+     -webkit-transition-duration: 0.5s;
+
+ }
+
+ .parent:hover {
+     margin-top: 50px;
+ }
+
+ .two {
+     background-color: gray;
+     width: 225px;
+     position: absolute;
+     left: 580px;
+     margin: auto;
+     transition-delay: 0.5s;
+ }
+
+ .two:hover {
+     margin-top: 30px;
+ }
+
+ .three {
+     width: 400px;
+     margin: auto;
+     font-size: 20px !important;
+     background-color: gray !important;
+     color: black !important;
+     text-align: center;
+     text-transform: capitalize;
+
+ }
+
+
+ .four {
+
+     border: var(--mainPadding, 10px) solid var(--mainColor, black);
+     padding: var(--mainPadding, 10px);
+     margin: 10px;
+     color: var(--mainColor, red);
+ }
